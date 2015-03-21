@@ -171,6 +171,10 @@ hr.small {
     position: fixed;
     left: 40px;
     top: 20px;
+    text-indent: -99999px;
+    background: url(../img/utask-logo-header.png) no-repeat center center;
+    width: 200px;
+    height: 60px;
 }
 
 /* About */
