@@ -166,7 +166,7 @@ hr.small {
 
 .header h1 {
     font-weight: normal;
-    font-size: 3em;
+    font-size: 3.5em;
     color: #ddd;
 }
 
@@ -192,10 +192,21 @@ hr.small {
 @media (max-width: 768px) {
     .header {
         padding-top: 140px;
+        padding-bottom: 160px;
+    }
+
+    .header h1 {
+        font-size: 2em;
     }
 
     .logo {
         position: absolute;
+    }
+}
+
+@media (max-width: 970px) {
+    .header h1 {
+        font-size: 2.5em;
     }
 }
 
