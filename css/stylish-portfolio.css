@@ -170,13 +170,22 @@ hr.small {
     color: #ddd;
 }
 
-.header h1 em {
+em.crypto, u,staff {
+    font-size: 1.1em;
     font-weight: bold;
-    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    color: #5EC7FF;
+    font-style: normal;
+    text-shadow: -1px -1px 1px #aaa, 1px 1px 1px #000;
 }
 
-.header h1 u {
-    color: #eee;
+u.stuff {
+    color: #5D98EE;
+    text-decoration: none;
+ }
+
+.header .text-muted {
+    color: #aaa;
 }
 
 .logo {
